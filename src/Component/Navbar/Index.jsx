@@ -3,10 +3,6 @@ import Navbar from "./Navbar";
 
 export default class MenuNavbar extends React.Component {
     render() {
-        return (
-            <div>
-                <Navbar />
-            </div>
-        );
+        return <Navbar />;
     }
 }

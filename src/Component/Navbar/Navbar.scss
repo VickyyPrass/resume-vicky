@@ -13,6 +13,27 @@
     overflow-y: auto;
     color: #fff;
 
+    .social-links a {
+        font-size: 18px;
+        display: inline-block;
+        background: #212431;
+        color: #fff;
+        line-height: 1;
+        padding: 8px 0;
+        margin-right: 10px;
+        border-radius: 50%;
+        text-align: center;
+        width: 36px;
+        height: 36px;
+        transition: 0.3s;
+
+        &:hover {
+            background: #149ddd;
+            color: #fff;
+            text-decoration: none;
+        }
+    }
+
     .profile-navbar {
         padding-top: 15px;
         text-align: center;
@@ -22,8 +43,22 @@
             width: 150px;
             height: 150px;
             border-radius: 50%;
-            border: 8px solid #373b55;
+            border: 8px solid #212431;
             margin: 15px;
+        }
+    }
+
+    .nav-item {
+        color: #fff;
+        line-height: 1.5;
+        margin-top: 10px;
+
+        span {
+            margin-left: 15px;
+        }
+
+        &:hover > .nav-icon {
+            color: #149ddd;
         }
     }
 }

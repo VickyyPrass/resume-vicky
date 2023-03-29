@@ -18,8 +18,8 @@ export default class Hero extends React.Component {
                 style={bgHero}
             >
                 <div className="title hero">
-                    <h1>Vicky Galih Prasetyawan</h1>
-                    <h3>h</h3>
+                    <h1>Hi 😊</h1>
+                    <h1>I'm Vicky Galih Prasetyawan</h1>
                 </div>
             </section>
         );
