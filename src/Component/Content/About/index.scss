@@ -1,0 +1,36 @@
+/* Adding CSS manually is only necessary in JSFiddle,
+   where CSS can't be inserted into the <head> */
+.typed-cursor {
+    opacity: 0 !important;
+    animation: typedjsBlink 0.7s infinite;
+    -webkit-animation: typedjsBlink 0.7s infinite;
+    animation: typedjsBlink 0.7s infinite;
+}
+@keyframes typedjsBlink {
+    50% {
+        opacity: 0;
+    }
+}
+@-webkit-keyframes typedjsBlink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+.typed-fade-out {
+    opacity: 0;
+    transition: opacity 0.25s;
+    -webkit-animation: 0;
+    animation: 0;
+}
+
+.data-typed {
+    padding-bottom: 4px;
+    letter-spacing: 1px;
+    border-bottom: 3px solid #149ddd;
+}

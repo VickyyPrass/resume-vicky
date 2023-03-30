@@ -11,9 +11,21 @@ import { faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
 import photo from "../images/vicky.png";
 import "./Navbar.scss";
 
-export default class Navbar extends React.Component {
-    render() {
-        return (
+export default function Navbar() {
+    return (
+        <div className="App-Area">
+            <div
+                className="menu-toggle"
+                onClick={() => {
+                    const nav = document.querySelector(".App-Navbar");
+                    nav.classList.toggle("slide");
+                }}
+            >
+                <input type="checkbox" name="" id="" />
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
             <div className="App-Navbar">
                 <div className="profile-navbar">
                     <img
@@ -51,7 +63,7 @@ export default class Navbar extends React.Component {
                     </div>
                 </div>
 
-                <div className="menu-navbar">
+                <div className="menu-navbar mt-3">
                     <Nav defaultActiveKey="/home" className="flex-column">
                         <Nav.Link href="/hero" className="nav-item">
                             <FontAwesomeIcon
@@ -98,6 +110,6 @@ export default class Navbar extends React.Component {
                     </Nav>
                 </div>
             </div>
-        );
-    }
+        </div>
+    );
 }

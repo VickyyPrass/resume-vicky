@@ -1,5 +1,6 @@
 import React from "react";
 import hero from "../../images/header.png";
+import TypedHero from "./TypedHero";
 
 const bgHero = {
     height: "100vh",
@@ -18,8 +19,11 @@ export default class Hero extends React.Component {
                 style={bgHero}
             >
                 <div className="title hero">
-                    <h1>Hi 😊</h1>
-                    <h1>I'm Vicky Galih Prasetyawan</h1>
+                    <h1>Hallo 😊</h1>
+                    <h1>Vicky Galih Prasetyawan</h1>
+                    <TypedHero
+                        strings={["FrontEnd Developer", "Web Designer"]}
+                    />
                 </div>
             </section>
         );
