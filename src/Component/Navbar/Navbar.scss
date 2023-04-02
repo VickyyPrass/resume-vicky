@@ -48,10 +48,17 @@
         }
     }
 
+    .menu-navbar ul li {
+        list-style: none;
+        line-height: 2;
+        margin-top: 20px;
+    }
+
     .nav-item {
         color: #fff;
-        line-height: 1.5;
-        margin-top: 10px;
+        text-decoration: none;
+        cursor: pointer;
+        margin-left: -20px;
 
         span {
             margin-left: 15px;

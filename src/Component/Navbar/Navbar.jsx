@@ -1,9 +1,7 @@
 import React from "react";
-import { Nav } from "react-bootstrap";
+import { Link } from "react-scroll";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faHouse } from "@fortawesome/free-solid-svg-icons";
-import { faUser } from "@fortawesome/free-solid-svg-icons";
-import { faFile, faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import { faHouse, faUser, faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { faBook, faScrewdriverWrench } from "@fortawesome/free-solid-svg-icons";
 import { faInstagram } from "@fortawesome/free-brands-svg-icons";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
@@ -53,7 +51,7 @@ export default function Navbar() {
                             <FontAwesomeIcon icon={faLinkedinIn} />
                         </a>
                         <a
-                            href="hhttps://github.com/VickyyPrass"
+                            href="https://github.com/VickyyPrass"
                             className="linkedin"
                             target="_blank"
                             rel="noreferrer"
@@ -64,50 +62,94 @@ export default function Navbar() {
                 </div>
 
                 <div className="menu-navbar mt-3">
-                    <Nav defaultActiveKey="/home" className="flex-column">
-                        <Nav.Link href="/hero" className="nav-item">
-                            <FontAwesomeIcon
-                                icon={faHouse}
-                                className="nav-icon"
-                            />
-                            <span>Home</span>
-                        </Nav.Link>
-                        <Nav.Link href="/about" className="nav-item">
-                            <FontAwesomeIcon
-                                icon={faUser}
-                                className="nav-icon"
-                            />
-                            <span>About</span>
-                        </Nav.Link>
-                        <Nav.Link href="/skill" className="nav-item">
-                            <FontAwesomeIcon
-                                icon={faFile}
-                                className="nav-icon"
-                            />
-                            <span>Skill</span>
-                        </Nav.Link>
-                        <Nav.Link href="/resume" className="nav-item">
-                            <FontAwesomeIcon
-                                icon={faScrewdriverWrench}
-                                className="nav-icon"
-                            />
-                            <span>Resume</span>
-                        </Nav.Link>
-                        <Nav.Link href="/portfolio" className="nav-item">
-                            <FontAwesomeIcon
-                                icon={faBook}
-                                className="nav-icon"
-                            />
-                            <span>Portfolio</span>
-                        </Nav.Link>
-                        <Nav.Link href="/contact" className="nav-item">
-                            <FontAwesomeIcon
-                                icon={faEnvelope}
-                                className="nav-icon"
-                            />
-                            <span>Contact</span>
-                        </Nav.Link>
-                    </Nav>
+                    <nav className="flex-column">
+                        <ul>
+                            <li>
+                                <Link
+                                    className="nav-item"
+                                    activeClass="active"
+                                    to="hero"
+                                    spy={true}
+                                    smooth={true}
+                                    duration={10}
+                                >
+                                    <FontAwesomeIcon
+                                        icon={faHouse}
+                                        className="nav-icon"
+                                    />
+                                    <span>Home</span>
+                                </Link>
+                            </li>
+
+                            <li>
+                                <Link
+                                    className="nav-item"
+                                    activeClass="active"
+                                    to="about"
+                                    spy={true}
+                                    smooth={true}
+                                    duration={10}
+                                >
+                                    <FontAwesomeIcon
+                                        icon={faUser}
+                                        className="nav-icon"
+                                    />
+                                    <span>About</span>
+                                </Link>
+                            </li>
+
+                            <li>
+                                <Link
+                                    className="nav-item"
+                                    activeClass="active"
+                                    to="resume"
+                                    spy={true}
+                                    smooth={true}
+                                    duration={10}
+                                >
+                                    <FontAwesomeIcon
+                                        icon={faScrewdriverWrench}
+                                        className="nav-icon"
+                                    />
+                                    <span>Resume</span>
+                                </Link>
+                            </li>
+
+                            <li>
+                                <Link
+                                    className="nav-item"
+                                    activeClass="active"
+                                    to="portfolio"
+                                    spy={true}
+                                    smooth={true}
+                                    duration={10}
+                                >
+                                    <FontAwesomeIcon
+                                        icon={faBook}
+                                        className="nav-icon"
+                                    />
+                                    <span>Portfolio</span>
+                                </Link>
+                            </li>
+
+                            <li>
+                                <Link
+                                    className="nav-item"
+                                    activeClass="active"
+                                    to="contact"
+                                    spy={true}
+                                    smooth={true}
+                                    duration={10}
+                                >
+                                    <FontAwesomeIcon
+                                        icon={faEnvelope}
+                                        className="nav-icon"
+                                    />
+                                    <span>Contact</span>
+                                </Link>
+                            </li>
+                        </ul>
+                    </nav>
                 </div>
             </div>
         </div>

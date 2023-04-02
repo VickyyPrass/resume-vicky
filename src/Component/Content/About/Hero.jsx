@@ -16,6 +16,7 @@ export default class Hero extends React.Component {
         return (
             <section
                 className="hero d-flex justify-content-center align-items-center text-white"
+                id="hero"
                 style={bgHero}
             >
                 <div className="title hero">

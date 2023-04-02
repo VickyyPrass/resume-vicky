@@ -1,6 +1,6 @@
 import React from "react";
 import Typed from "typed.js";
-import "./index.scss";
+import "./TypedHero.scss";
 
 export default class TypedHero extends React.Component {
     componentDidMount() {
