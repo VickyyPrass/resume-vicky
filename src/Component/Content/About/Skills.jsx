@@ -3,7 +3,6 @@ import htmlLogo from "../../images/html.png";
 import cssLogo from "../../images/css.png";
 import jsLogo from "../../images/javascript.png";
 import sassLogo from "../../images/sass.png";
-import bootstrapLogo from "../../images/bootstrap.png";
 import nodeLogo from "../../images/node.png";
 import reactLogo from "../../images/react.png";
 import expressLogo from "../../images/express.png";
@@ -34,9 +33,6 @@ export default class Skills extends React.Component {
                     </div>
                     <div className="item">
                         <img src={reactLogo} alt="" />
-                    </div>
-                    <div className="item">
-                        <img src={bootstrapLogo} alt="" />
                     </div>
                     <div className="item">
                         <img src={expressLogo} alt="" />
