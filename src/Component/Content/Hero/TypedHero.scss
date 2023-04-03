@@ -1,5 +1,13 @@
-/* Adding CSS manually is only necessary in JSFiddle,
-   where CSS can't be inserted into the <head> */
+@import url("https://fonts.googleapis.com/css2?family=Alkatra&display=swap");
+
+.hero {
+    font-family: "Alkatra", cursive;
+}
+
+.title-hero {
+    margin-left: 300px;
+}
+
 .typed-cursor {
     opacity: 0 !important;
     animation: typedjsBlink 0.7s infinite;
@@ -33,4 +41,10 @@
     padding-bottom: 4px;
     letter-spacing: 1px;
     border-bottom: 3px solid #149ddd;
+}
+
+@media (max-width: 992px) {
+    .title-hero {
+        margin: 0;
+    }
 }

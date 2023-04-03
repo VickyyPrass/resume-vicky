@@ -1,17 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Alkatra&display=swap");
 .about {
-    height: 100vh;
     margin: 30px;
-    padding-top: 20px;
+    padding-top: 30px;
     font-size: 16px;
-    text-align: justify;
+    color: #fff;
 
     .line {
-        width: 150px;
+        width: 100px;
         height: 5px;
         border: none;
         background: #149ddd;
         border-radius: 10px;
         margin-bottom: 20px;
         margin-top: 10px;
+    }
+
+    .biography {
+        font-size: 20px;
+        font-family: "Alkatra", cursive;
+        text-align: left;
+
+        img {
+            width: 300px;
+            border-radius: 45% 45% 0 0;
+            border: 8px solid #b0bae9;
+            text-align: center;
+            box-shadow: 0px 0px 13px 5px rgba(182, 209, 226, 0.94);
+        }
+    }
+
+    .skill-area {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        grid-gap: 10px;
+
+        .item {
+            width: 100%;
+            height: auto;
+            min-height: 100%;
+            overflow: hidden;
+            position: relative;
+            display: inline-block;
+            margin-top: 20px;
+        }
+
+        img {
+            max-width: 100%;
+            max-height: auto;
+            position: relative;
+            vertical-align: middle;
+            left: 50%;
+            transform: translate(-40%);
+            height: 100px;
+            width: 100px;
+            object-fit: cover;
+        }
+    }
+}
+
+@media (max-width: 600px) {
+    .about {
+        .skill-area {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 10px;
+
+            img {
+                height: 80px;
+                width: 80px;
+            }
+        }
     }
 }

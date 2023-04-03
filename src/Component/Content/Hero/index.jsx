@@ -19,8 +19,8 @@ export default class Hero extends React.Component {
                 id="hero"
                 style={bgHero}
             >
-                <div className="title hero">
-                    <h1>Hallo 😊</h1>
+                <div className="title-hero">
+                    <h1>Hello 😊</h1>
                     <h1>Vicky Galih Prasetyawan</h1>
                     <TypedHero
                         strings={["FrontEnd Developer", "Web Designer"]}
