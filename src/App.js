@@ -1,8 +1,8 @@
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import About from "./Component/Content/About";
-import MenuNavbar from "./Component/Navbar";
-import Hero from "./Component/Content/Hero";
+import MenuNavbar from "./Component/Navbar/Index";
+import Hero from "./Component/Content/Hero/Index";
 
 function App() {
     return (
