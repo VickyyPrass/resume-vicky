@@ -1,13 +1,13 @@
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import About from "./Component/Content/About";
-import MenuNavbar from "./Component/Navbar/Index";
+import About from "./Component/Content/About/About";
+import Navbar from "./Component/Navbar/Navbar";
 import Hero from "./Component/Content/Hero/Hero";
 
 function App() {
     return (
         <div className="App">
-            <MenuNavbar />
+            <Navbar />
             <div className="App-Content">
                 <Hero />
                 <div className="main-content">
