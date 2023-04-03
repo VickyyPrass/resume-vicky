@@ -18,7 +18,7 @@ export default class Profile extends React.Component {
 
                         <Col md={{ span: 5, offset: 1 }}>
                             <p>
-                                I have  expertise in Web Development and Web
+                                I have expertise in Web Development and Web
                                 Design. I am a person who likes new things,
                                 likes various challenges and can work in a team
                                 or individually. I have learned about website
@@ -27,8 +27,6 @@ export default class Profile extends React.Component {
                                 frontend to deepen how users can enjoy a website
                                 comfortably.
                             </p>
-
-                            <p></p>
                         </Col>
                     </Row>
                 </div>

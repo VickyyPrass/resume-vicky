@@ -1,6 +1,6 @@
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import About from "./Component/Content/About/About.jsx";
+import About from "./Component/Content/About/About";
 import Navbar from "./Component/Navbar/Navbar";
 import Hero from "./Component/Content/Hero/Hero";
 
