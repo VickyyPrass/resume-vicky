@@ -7,7 +7,7 @@ export default class Profile extends React.Component {
     render() {
         return (
             <div className="profile">
-                <h3>About</h3>
+                <h3>It's Me and Only Me</h3>
                 <div className="line"></div>
 
                 <div className="biography mt-5 mb-5">
@@ -18,6 +18,7 @@ export default class Profile extends React.Component {
 
                         <Col md={{ span: 5, offset: 1 }}>
                             <p>
+                                I'm a Front-End Developer located in Indonesia.
                                 I have expertise in Web Development and Web
                                 Design. I am a person who likes new things,
                                 likes various challenges and can work in a team

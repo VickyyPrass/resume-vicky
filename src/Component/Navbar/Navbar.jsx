@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-scroll";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHouse, faUser, faEnvelope } from "@fortawesome/free-solid-svg-icons";
-import { faBook, faScrewdriverWrench } from "@fortawesome/free-solid-svg-icons";
+import { faScrewdriverWrench } from "@fortawesome/free-solid-svg-icons";
 import { faInstagram } from "@fortawesome/free-brands-svg-icons";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
@@ -116,7 +116,7 @@ export default class Navbar extends React.Component {
                                     </Link>
                                 </li>
 
-                                <li>
+                                {/* <li>
                                     <Link
                                         className="nav-item"
                                         activeClass="active"
@@ -131,7 +131,7 @@ export default class Navbar extends React.Component {
                                         />
                                         <span>Portfolio</span>
                                     </Link>
-                                </li>
+                                </li> */}
 
                                 <li>
                                     <Link

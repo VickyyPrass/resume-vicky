@@ -1,23 +1,9 @@
-@import url("https://fonts.googleapis.com/css2?family=Alkatra&display=swap");
 .about {
     margin: 30px;
     padding-top: 30px;
-    font-size: 16px;
-    color: #fff;
-
-    .line {
-        width: 100px;
-        height: 5px;
-        border: none;
-        background: #149ddd;
-        border-radius: 10px;
-        margin-bottom: 20px;
-        margin-top: 10px;
-    }
+    font-size: 20px;
 
     .biography {
-        font-size: 20px;
-        font-family: "Alkatra", cursive;
         text-align: left;
 
         img {

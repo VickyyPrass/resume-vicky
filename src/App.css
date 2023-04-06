@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alkatra&display=swap");
 body {
     font-family: "Roboto", sans-serif;
 }
@@ -14,6 +15,18 @@ body {
 
 .main-content {
     margin-left: 300px;
+    font-family: "Alkatra", cursive;
+    color: #fff;
+}
+
+.line {
+    width: 100px;
+    height: 5px;
+    border: none;
+    background: #149ddd;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-top: 10px;
 }
 
 @media (max-width: 992px) {
